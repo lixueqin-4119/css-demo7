@@ -1,0 +1,45 @@
+/*顶部条  两栏布局*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+.logo {
+  display: inline-block;
+  /*vertical-align: top;*/
+  float: left;
+  margin-left: 10px;
+}
+.logo > img {
+  height: 26px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+.nav {
+  float: right;
+  margin-left: 20px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ul > li {
+  float: left;
+  padding: 4px 0.5em;
+}
+ul {
+  display: inline-block;
+}
+header {
+  border: 1px solid black;
+  background: rgb(122, 119, 119);
+  color: white;
+}
